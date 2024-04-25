@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Challenge 3</title>
+
+    <script src="user-name.js"></script>
+    <script src="team-list.js"></script>
+    <script src="sorting-icon.js"></script>
+</head>
+
+<body>
+    <team-list id="team" data-sort-order="asc"></team-list>
+
+    <script>
+        const teamComponent = document.querySelector('#team');
+        teamComponent.teamMembers = [
+            { name: 'Elena' },
+            { name: 'Veronica' },
+            { name: 'Ionut' },
+            { name: 'Werner' },
+            { name: 'Ben' },
+            { name: 'Tom' },
+            { name: 'Todor' },
+        ];
+    </script>
+</body>
+</html>
